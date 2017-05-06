@@ -1,10 +1,12 @@
-# Pelican-Blue
+# Pelican-Gezinsbond
 
 Responsive theme for [Pelican](http://blog.getpelican.com/) Static Site Generator, Powered by [Python](https://www.python.org/) Programming language.
 
+Forked from [pelican-blue](https://github.com/Parbhat/pelican-blue) and customized for [gezinsbond](https://gezinsbond.be)
+
 ## Demo
 
-You can see the theme in action at https://parbhatpuri.com
+You can see the theme in action at http://gezinsbond-humbeek.be
 
 ### Screenshots
 
@@ -32,19 +34,19 @@ You can install Pelican-Blue theme to your earlier Pelican project or create a n
 * Clone the repository
 
 ```
-$ git clone https://github.com/Parbhat/pelican-blue.git
+$ git clone https://github.com/visibilityspots/pelican-gezinsbond.git
 ```
 
-* Create a `THEME` variable in your `pelicanconf.py` file and set its value to the location of pelican-blue theme.
+* Create a `THEME` variable in your `pelicanconf.py` file and set its value to the location of pelican-gezinsbond theme.
 
 ```python
-THEME = 'path-to-pelican-blue-theme'
+THEME = 'path-to-pelican-gezinsbond-theme'
 ```
 
-If you have placed the `pelican-blue` theme inside your project's pelican-themes folder, change the `THEME` variable in `pelicanconf.py` to
+If you have placed the `pelican-gezinsbond` theme inside your project's pelican-themes folder, change the `THEME` variable in `pelicanconf.py` to
 
 ```python
-THEME = 'pelican-themes/pelican-blue'
+THEME = 'pelican-themes/pelican-gezinsbond'
 ```
 
 * Add the following code to your `pelicanconf.py` file to display the social icons.
@@ -56,7 +58,7 @@ SOCIAL = (('linkedin', 'https://www.linkedin.com/in/username'),
           )
 ```
 
-* That's it! You have installed `pelican-blue`. To see the Theme in action run the devserver
+* That's it! You have installed `pelican-gezinsbond`. To see the Theme in action run the devserver
 
 ```
 make devserver
@@ -107,4 +109,4 @@ For more information on publishing your site, read the publishing [docs](http://
 
 ## Contributing
 
-Your contributions are welcome to improve the `pelican-blue` theme.
+Your contributions are welcome to improve the `gezinsbond` theme.
