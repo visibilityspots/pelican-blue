@@ -112,6 +112,12 @@
       {% endfor %}
       </ul> 
     {% endif %}
+    <!-- Footer -->
+    {% if DISPLAY_FOOTER or DISPLAY_FOOTER is not defined %}
+    <footer>
+      <p>Website powered by <a href="http://getpelican.com/">Pelican</a>, using <a href="https://github.com/visibilityspots/pelican-gezinsbond">pelican-gezinsbonde</a> theme hosted at <a href="https://aws.amazon.com/s3/">Amazon S3</a></p>
+    </footer>
+    {% endif %}
 
   </aside>
 
@@ -121,14 +127,6 @@
     {% endblock %}
   </article>
 
-  <!-- Footer -->
-  {% if DISPLAY_FOOTER or DISPLAY_FOOTER is not defined %}
-  <footer>
-    <p>
-      Website powered by <a href="http://getpelican.com/">Pelican</a>, using <a href="https://github.com/visibilityspots/pelican-gezinsbond">pelican-gezinsbonde</a> theme hosted at <a href="https://aws.amazon.com/s3/">Amazon S3</a>.
-    </p>
-  </footer>
-  {% endif %}
 
   {% if GOOGLE_ANALYTICS %}
   <!-- Analytics -->
